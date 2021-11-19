@@ -11,20 +11,18 @@ document.getElementById("explanationOfTheHobby").innerHTML = "Gosto de fazer mó
 document.getElementById("listOfLinks").innerHTML = "Lista de links explicando o Hobbie"
 
 //links
-var firstLink = document.getElementById("first-Link");
-firstLink.href = "https://www.domestika.org/pt/courses/area/173-marcenaria?gclid=EAIaIQobChMIhb6Dppik9AIVU4GRCh0uAgNiEAAYAiAAEgKGHvD_BwE";
-firstLink.innerHTML = "Curso de Doméstika sobre Marcenaria";
-firstLink.target = "_blank";
 
-var secondLink = document.getElementById("second-Link");
-secondLink.href = "https://artedamarcenariamoderna.com.br/madeira-macica/";
-secondLink.innerHTML = "Dicas para fazer seu próprio móvel";
-secondLink.target = "_blank";
+document.getElementById("first-Link").href = "https://www.domestika.org/pt/courses/area/173-marcenaria?gclid=EAIaIQobChMIhb6Dppik9AIVU4GRCh0uAgNiEAAYAiAAEgKGHvD_BwE";
+document.getElementById("first-Link").innerHTML = "Curso de Doméstika sobre Marcenaria";
+document.getElementById("first-Link").target = "_blank";
 
-var thirdLink = document.getElementById("third-Link");
-thirdLink.innerHTML = "Exemplo de móveis para fazer";
-thirdLink.href = "https://br.pinterest.com/luizreceita/moveis-de-madeira/"
-thirdLink.target = "_blank";
+document.getElementById("second-Link").href = "https://artedamarcenariamoderna.com.br/madeira-macica/";
+document.getElementById("second-Link").innerHTML = "Dicas para fazer seu próprio móvel";
+document.getElementById("second-Link").target = "_blank";
+
+document.getElementById("third-Link").innerHTML = "Exemplo de móveis para fazer";
+document.getElementById("third-Link").href = "https://br.pinterest.com/luizreceita/moveis-de-madeira/"
+document.getElementById("third-Link").target = "_blank";
 
 //images of my photos
 
